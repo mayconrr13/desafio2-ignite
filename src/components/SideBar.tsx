@@ -1,5 +1,7 @@
 import React from "react";
 
+import '../styles/sidebar.scss';
+
 import { Button } from "./Button";
 
 interface GenreResponseProps {
@@ -34,6 +36,5 @@ export function SideBar({ genres, selectedGenreId, setSelectedGenreId }: SideBar
         />
       ))}
     </div>
-
   </nav>
 )}

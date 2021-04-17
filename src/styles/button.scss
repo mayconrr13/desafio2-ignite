@@ -33,3 +33,19 @@ button {
     color: var(--yellow);
   }
 }
+
+@media (max-width: 750px) {
+  button {
+    flex-direction: column;
+    min-width: 100px;
+
+    svg {
+      margin-bottom: 0.5rem;
+    }
+    
+    & + button {
+      margin-top: 0;
+    }
+  }
+
+}

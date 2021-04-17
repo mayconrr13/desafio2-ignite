@@ -1,8 +1,11 @@
 .container {
   max-width: 52.5rem;
   width: 100%;
+  max-height: 100vh;
+  
 
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 header {
@@ -21,7 +24,6 @@ header {
 }
 
 main {
-  width: 100%;
   margin-top: 5.625rem;
 
   .movies-list {
@@ -29,5 +31,79 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4.75rem;
     list-style: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  main {
+    .movies-list {
+      display: grid;
+      grid-template-columns: repeat(2, 14.31rem);
+      grid-gap: 4.75rem;
+      list-style: none;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .container {
+    overflow-y: auto;
+  }
+
+  header {
+    span.category,
+    span {  
+      font-size: 1.75rem;
+    }
+  }
+
+  main {
+    .movies-list {
+      display: grid;
+      grid-template-columns: repeat(1, 14.31rem);
+      grid-gap: 4.75rem;
+      list-style: none;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    overflow-y: inherit;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .movies-list {
+      display: grid;
+      grid-template-columns: repeat(2, 14.31rem);
+      grid-gap: 4.75rem;
+      list-style: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    overflow-y: inherit;
+  }
+
+  header {
+    span.category,
+    span {  
+      font-size: 1.5rem;
+    }
+  }
+
+  main {
+    .movies-list {
+      display: grid;
+      grid-template-columns: repeat(1, 14.31rem);
+      grid-gap: 4.75rem;
+      list-style: none;
+    }
   }
 }

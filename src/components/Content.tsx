@@ -1,6 +1,9 @@
 import React from "react";
 import { MovieCard } from "./MovieCard";
 
+
+import '../styles/content.scss';
+
 interface MovieProps {
   Title: string;
   Poster: string;

@@ -7,8 +7,7 @@ import { api } from './services/api';
 
 import './styles/global.scss';
 
-import './styles/sidebar.scss';
-import './styles/content.scss';
+import './styles/home.scss'
 
 interface GenreResponseProps {
   id: number;
@@ -51,7 +50,7 @@ export function App() {
   }, [selectedGenreId]);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
+    <div className="app-container" >
       <SideBar genres={genres} selectedGenreId={selectedGenreId} setSelectedGenreId={setSelectedGenreId} />
       <Content selectedGenre={selectedGenre}  movies={movies} />
     </div>
