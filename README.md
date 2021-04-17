@@ -5,12 +5,12 @@
 <h4 align="center"> 
 	Projeto concluído! 
 </h4>
-<p align="left">Watch me é o segundo desafio do primeiro capítulo da trilha de ReactJS do Ignite, bootcamp da Rocketseat. Neste desafeio, o objetivo principal é separar a aplicação em componentes, deixando o código mais limpo proporcionando uma melhor manutenção do mesmo. Como adicional, desenvolvi a responsividade da aplicação com base no layout original através das media queries do CSS. Os dados dos filmes e das categorias foram obtidos de uma api fake, premitindo que o dev front-end consiga trabalhar com dados dinâmicos mesmo que o back-end da aplicação não esteja pronto.</p>
+<p align="left">Watch me é o segundo desafio do primeiro capítulo da trilha de ReactJS do Ignite, bootcamp da Rocketseat. Neste desafio, o objetivo principal é separar a aplicação em componentes, deixando o código mais limpo proporcionando uma melhor manutenção do mesmo. Como adicional, desenvolvi a responsividade da aplicação com base no layout original através das media queries do CSS. Os dados dos filmes e das categorias foram obtidos de uma api fake, o que premite que o dev front-end consiga trabalhar com dados dinâmicos mesmo que o back-end da aplicação não esteja pronto.</p>
 
 ### Tecnologias utilizadas
 ---
 
-* ReactJs (CRA)
+* ReactJS (CRA)
 * TypeScript
 * Sass
 * JSON Server
@@ -36,7 +36,7 @@
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/mayconrr13/todonext.git
+$ git clone https://github.com/mayconrr13/desafio2-ignite.git
 
 # Instale as dependências
 $ yarn 
